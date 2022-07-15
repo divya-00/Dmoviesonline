@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>Sign up | D movies</title>
+<link  rel="stylesheet" href="https://stackpath.bootstrapcdn
+.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+   background-color: royalblue;
+   padding:10px 3%;
+   position:fixed;
+   top:0;left:0;right:0;  
+}
+.login{
+float:bottom;
+list-style:none;
+margin-top:50px
+}
+.login li{
+display:inline-block;
+}
+.login li a{
+color:black;
+text-decoration:none;
+padding:10px 50px;
+font-family:sans-serif;
+font-size:20px;
+}
+.log a{
+color:black;
+border-radius:5px;
+background-color:greenyellow;
+}
+
+.login li a:hover{
+color:black;
+border-radius:5px;
+background-color:green;
+}
+
+
+form{
+    height: 630px;
+    margin-top:50px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 30px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.30);
+    border-radius: 3px;
+    padding: 0 7px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 300;
+}
+::placeholder{
+    color: grey;
+}
+
+.nav-menu{
+float:right;
+list-style:none;
+margin-top:30px
+}
+.nav-menu li{
+display:inline-block;
+}
+.nav-menu li a{
+color:black;
+text-decoration:none;
+padding:8px 20px;
+font-family:Times;
+font-size:20px;
+}
+.logi a{
+color:black;
+border-radius:5px;
+background-color:blue;
+}
+
+.nav-menu{
+float:right;
+list-style:none;
+margin-top:30px
+}
+.nav-menu li{
+display:inline-block;
+}
+.nav-menu li a{
+color:white;
+text-decoration:none;
+padding:8px 20px;
+font-family:Times;
+font-size:20px;
+}
+.sign a{
+color:white;
+border-radius:5px;
+background-color:navy;
+}
+.avatar img{
+border-radius:50%;
+height:100px;
+width:100px;
+margin-left:100px;
+}
+.nav-menu li a:hover{
+color:white;
+border-radius:5px;
+background-color:navy;
+}
+</style>
+<Body bgcolor="powderblue">
+
+ <header>
+    <ul class="nav-menu">
+      <li><a href="index.html"><i class="fa fa-home">Home</a></i></li>
+      <li><a href="About.html"><i class="fa fa-film">About us</a></i></li>
+      <li><a href="Address.html"><i class="fa fa-envelope-open">Contact us</a></i></li>
+      <li><a href="login.html"><i class="fa fa-sign-in">login</a></i></li>
+      <li class="sign"><a href="sign.html"><i class="fa fa-user-plus">sign up</a></i></li>
+    </ul>
+
+ </header>
+<body>
+
+    <form>
+        <div class="avatar"><img src="avatar2.png"></div>
+        <h3>Sign up Here</h3>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter your email" id="email">
+        <label><div class ="drop"><p>Selct your Age-group <select id="select">
+                <option value="0">Age</option>
+                <option value="1">4-12</option>
+                <option value="2">12-18</option>
+                <option value="3">18-30</option>
+                <option value="4">30-45</option>
+                <option value="5">above 45</option>
+        </select></p></div></label>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+        <ul class="login">
+           <center><li class="log"><a href="success.html">Signup</a></li></center>
+        </ul>
+    </form>
+</body>
+</html>
+
+ 
