@@ -67,4 +67,4 @@ Feel free to enhance this website by adding new features or integrating APIs. Fo
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
-Copyright © 2024 **Devi Divya Sri Perni**
+Copyright © 2022 **Devi Divya Sri Perni**
