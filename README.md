@@ -13,6 +13,7 @@ DMovies Online is a **movie showcase website** featuring movie posters, descript
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Pages](#pages)
 - [Tech Stack](#tech-stack)
 - [Contributing](#contributing)
 - [License](#license)
