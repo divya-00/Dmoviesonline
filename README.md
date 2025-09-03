@@ -68,4 +68,4 @@ Feel free to enhance this website by adding new features or integrating APIs. Fo
 
 
 This project is licensed under the terms of the [MIT license](LICENSE).
-Copyright © rights are reserved, made with :heart: DeviDivyaSri Perni.
+Copyright © rights are reserved, made with :heart: Devi Divya Sri Perni.
